@@ -6,30 +6,46 @@
 }
 /*/reset*/
 
-/*header*/
+/*header_macro_sections*/
 .header_container{
   width: 80%;
   height: 500px; /*da_togliere*/
   margin: auto;
-  background-color: blue;
+  background-color: blue; /*da_togliere*/
 }
 
-.texts_container{
+.header_texts_unity{
   width: 80%;
   height: 400px; /*da_togliere*/
   margin: auto;
-  background-color: red;
+  background-color: red; /*da_togliere*/
 }
 
-.nav_bar{
+.header_nav_bar{
   width: 100%;
   height: 25%; /*da_togliere*/
-  background-color: green;
+  background-color: green; /*da_togliere*/
 }
 
-.text_cta_box{
+.header_text_cta_box{
   width: 100%;
   height: 75%; /*da_togliere*/
-  background-color: white;
+  background-color: white; /*da_togliere*/
 }
-/*/header*/
+/*/header_macro_sections*/
+
+/*header_nav_bar*/
+.header_logo{
+  width: 15%;
+  height: 100%;
+  background-color: red;
+  position: relative;
+}
+
+.header_logo>span{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*/header_nav_bar*/
