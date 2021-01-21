@@ -6,6 +6,10 @@
 }
 /*/reset*/
 
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 /*header_macro_sections*/
 .header_container{
   width: 80%;
@@ -15,7 +19,7 @@
 }
 
 .header_texts_unity{
-  width: 80%;
+  width: 85%;
   height: 400px; /*da_togliere*/
   margin: auto;
   background-color: red; /*da_togliere*/
@@ -23,13 +27,12 @@
 
 .header_nav_bar{
   width: 100%;
-  height: 25%;
-  background-color: green; /*da_togliere*/
+  height: 20%;
 }
 
 .header_text_cta_box{
   width: 100%;
-  height: 75%;
+  height: 80%;
   background-color: white; /*da_togliere*/
 }
 /*/header_macro_sections*/
@@ -38,7 +41,6 @@
 .header_logo{
   width: 15%;
   height: 100%;
-  background-color: red; /*da_togliere*/
   position: relative;
   float: left;
 }
@@ -47,21 +49,25 @@
   position: absolute;
   top:50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-57%, -57%);
 }
 
 .header_links{
-  width: 45%;
+  width: 40%;
   height: 100%;
-  background-color: yellow; /*da_togliere*/
   float: left;
 }
 
 .header_cta{
-  width: 40%;
+  width: 45%;
   height: 100%;
-  background-color: black; /*da_togliere*/
   float: left;
+}
+
+.header_links_container{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
 }
 
 .header_links li,.header_cta li{
@@ -69,14 +75,39 @@
   list-style: none;
 }
 
+.header_links li{
+  margin-right: 4px;
+}
+
 .header_links a,.header_cta a{
   text-decoration: none;
   font-size: 10px;
+  color: white;
 }
 
 .header_links>span,.header_cta>span{
+  line-height: 78px;
+}
+
+.header_cta>span{
+  text-align: right;
+}
+
+li>.border{
+  border: 1px solid white;
+  padding: 8px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+a>.login_space{
+  width: 70px;
+  display: inline-block;
   text-align: center;
-  line-height: 101px;
+}
+
+.header_cta ul li:last-child>a{
+  background-color: green;
 }
 
 /*clearfix*/
