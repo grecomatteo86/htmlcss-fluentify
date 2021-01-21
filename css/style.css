@@ -23,13 +23,13 @@
 
 .header_nav_bar{
   width: 100%;
-  height: 25%; /*da_togliere*/
+  height: 25%;
   background-color: green; /*da_togliere*/
 }
 
 .header_text_cta_box{
   width: 100%;
-  height: 75%; /*da_togliere*/
+  height: 75%;
   background-color: white; /*da_togliere*/
 }
 /*/header_macro_sections*/
@@ -38,8 +38,9 @@
 .header_logo{
   width: 15%;
   height: 100%;
-  background-color: red;
+  background-color: red; /*da_togliere*/
   position: relative;
+  float: left;
 }
 
 .header_logo>span{
@@ -48,4 +49,41 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.header_links{
+  width: 45%;
+  height: 100%;
+  background-color: yellow; /*da_togliere*/
+  float: left;
+}
+
+.header_cta{
+  width: 40%;
+  height: 100%;
+  background-color: black; /*da_togliere*/
+  float: left;
+}
+
+.header_links li,.header_cta li{
+  display: inline-block;
+  list-style: none;
+}
+
+.header_links a,.header_cta a{
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.header_links>span,.header_cta>span{
+  text-align: center;
+  line-height: 101px;
+}
+
+/*clearfix*/
+.header_nav_bar::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+/*/clearfix*/
 /*/header_nav_bar*/
