@@ -12,17 +12,25 @@ body{
 
 /*header_macro_sections*/
 .header_container{
-  width: 80%;
-  height: 500px; /*da_togliere*/
+  width: 100%;
+  height: 80vh;
   margin: auto;
-  background-color: blue; /*da_togliere*/
+  background-color: rgb(15, 51, 88);
+  position: relative;
+}
+
+.hero_image{
+  width: 70%;
+  height: 70%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .header_texts_unity{
   width: 85%;
   height: 400px; /*da_togliere*/
   margin: auto;
-  background-color: red; /*da_togliere*/
 }
 
 .header_nav_bar{
@@ -33,7 +41,6 @@ body{
 .header_text_box{
   width: 100%;
   height: 80%;
-  background-color: orange; /*da_togliere*/
 }
 /*/header_macro_sections*/
 
@@ -129,29 +136,29 @@ a>.login_space{
 }
 
 .header_text{
-  width: 50%;
+  width: 45%;
   position: absolute;
   top: 35%;
 }
 
 .main_title{
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 500;
 }
 
 .plan{
   text-decoration: none;
-  font-size: 10px;
+  font-size: 14px;
   color: white;
 }
 
 .label{
   border-radius: 8px;
-  width: 160px;
-  height: 45px;
+  width: 185px;
+  height: 60px;
   display: inline-block;
   text-align: center;
-  line-height: 45px;
+  line-height: 60px;
   margin-top: 25px;
 }
 /*/header_text_plan_box*/
