@@ -245,7 +245,52 @@ a>.login_space{
 /*last_section*/
 .last_section{
   height: 60vh;
-  background-color: red; /*da_togliere*/
+}
+
+.last_section_left,.last_section_right{
+  width: 50%;
+  float: left;
+}
+
+/*clearfix*/
+.last_section::after{
+  content: "";
+  display: block;;
+  clear:both;
+}
+/*/clearfix*/
+
+.last_section_left_image_box{
+  width: 70%;
+  height: 350px;
+  margin: auto;
+  margin-top: 35px;
+}
+
+.mountain_image{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.last_section_text_box{
+  width: 64%;
+  margin: 40px 0 0 40px;
+}
+
+.last_section_title{
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.last_section_paragraph{
+  color: rgb(128, 128, 128);
+  font-size: 17px;
+  margin: 15px 0 20px 0;
+}
+
+.placement_link{
+  font-size: 14px;
 }
 /*/last_section*/
 /*/main*/
