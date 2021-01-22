@@ -187,13 +187,12 @@ a>.login_space{
 /*columns_section*/
 .columns_section{
   height: 70vh;
-  background-color: red; /*da_togliere*/
+  background-color: rgb(255, 255, 255);
 }
 
 .left_column, .center_column, .right_column{
   width: 33.33%;
   float: left;
-  border: 1px solid black; /*da_togliere*/
 }
 
 /*clearfix*/
@@ -208,7 +207,7 @@ a>.login_space{
   width: 40%;
   height: 150px;;
   margin: auto;
-  background-color: black; /*da_togliere*/
+  margin-top: 30px;
 }
 
 .gru_image,.computer_image,.folder_image{
@@ -216,32 +215,37 @@ a>.login_space{
   height: 100%;
 }
 
-.column_title_box{
+.column_title{
   color: rgb(126, 185, 35);
   font-size: 25px;
   font-weight: 400;
   width: 73%;
   margin: auto;
-  background-color: grey; /*da_togliere*/
+  margin-top: 30px;
+  text-align: center;
 }
 
-.columns_section h5:last-child{ /*da_correggere*/
-  width: %;
+.separator{
+  background-color: rgb(115, 115, 115);
+  width: 20%;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
-
-
-
-
-
-.left_column{                 /*da_togliere*/
-  background-color: yellow;
-}
-.center_column{
-  background-color: green;
-}
-.right_column{
-  background-color: blue;
+.column_paragraph{
+  color: rgb(118, 118, 118);
+  font-size: 17px;
+  width: 73%;
+  margin: auto;
+  text-align: center;
 }
 /*/columns_section*/
+
+/*last_section*/
+.last_section{
+  height: 60vh;
+  background-color: red; /*da_togliere*/
+}
+/*/last_section*/
 /*/main*/
